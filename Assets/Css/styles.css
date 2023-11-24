@@ -1,6 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .contacts {
-    border: 2px solid;
     width: 35%;
+    height: 100vmax;border-right: 1px solid;
+
 }
 img {
     width: 80px;
@@ -10,24 +15,71 @@ img {
 ul {
     list-style: none;
 }
+h2 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
 .fleex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-chat {
+    gap: 05rem;
+}
+.contact-person {
+    display: flex;
+    margin: 10px 10px;
+    align-items: center;
+
+    & img {
+        padding-right: 1rem;
+    }
 }
 .perfil {
-    border: 1px solid;
+    margin-top: 1rem;
 }
 .principal {
-    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .profile-info {
     gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .icons {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 0.5rem;
-    background-color: yellow;
     padding-right: 1rem;
+    font-size: 1.5rem;
+    color: grey;
+}
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    height: 130px;
+}
+.rectangulo {
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    background-color: rgb(169, 107, 228);
+    display: flex;
+    align-items: center;
+    color: blanchedalmond;
+
+}
+small {
+    color: gray;
 }
