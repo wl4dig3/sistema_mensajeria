@@ -1,0 +1,33 @@
+.contacts {
+    border: 2px solid;
+    width: 35%;
+}
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+ul {
+    list-style: none;
+}
+.fleex {
+    display: flex;
+    justify-content: space-between;
+}
+.perfil {
+    border: 1px solid;
+}
+.principal {
+    border: 2px solid;
+}
+.profile-info {
+    gap: 0.5rem;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: yellow;
+    padding-right: 1rem;
+}
